@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RHTestNGMavenJenkinsSuite" duration-ms="20633" started-at="2018-12-29T22:56:50Z" finished-at="2018-12-29T22:57:11Z">
+    <groups>
+    </groups>
+    <test name="RHTestNGMavenJenkinsTest" duration-ms="20633" started-at="2018-12-29T22:56:50Z" finished-at="2018-12-29T22:57:11Z">
+      <class name="RHTestNGMavenJenkins.RHMvnJnkns">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RHTestNGMavenJenkins.RHMvnJnkns@3ffc5af1]" name="initializeBrowser" is-config="true" duration-ms="6418" started-at="2018-12-29T22:56:50Z" finished-at="2018-12-29T22:56:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.robinhood.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[webdriver.chrome.driver]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C:\\Users\\faiz1\\Desktop\\Selenium\\chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RHTestNGMavenJenkins.RHMvnJnkns@3ffc5af1]" name="login" duration-ms="7708" started-at="2018-12-29T22:56:56Z" finished-at="2018-12-29T22:57:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://robinhood.com/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Log In]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[faiz1985@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Novem*2018]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[_1q0oQo76jB7KFKWPCMPzDW]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="findStockValue()[pri:1, instance:RHTestNGMavenJenkins.RHMvnJnkns@3ffc5af1]" name="findStockValue" duration-ms="2131" started-at="2018-12-29T22:57:04Z" depends-on-methods="RHTestNGMavenJenkins.RHMvnJnkns.login" finished-at="2018-12-29T22:57:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStockValue -->
+        <test-method status="PASS" signature="findCurrentBuyingPower()[pri:2, instance:RHTestNGMavenJenkins.RHMvnJnkns@3ffc5af1]" name="findCurrentBuyingPower" duration-ms="1945" started-at="2018-12-29T22:57:06Z" depends-on-methods="RHTestNGMavenJenkins.RHMvnJnkns.login" finished-at="2018-12-29T22:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCurrentBuyingPower -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:RHTestNGMavenJenkins.RHMvnJnkns@3ffc5af1]" name="closeBrowser" is-config="true" duration-ms="2408" started-at="2018-12-29T22:57:08Z" finished-at="2018-12-29T22:57:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- RHTestNGMavenJenkins.RHMvnJnkns -->
+    </test> <!-- RHTestNGMavenJenkinsTest -->
+  </suite> <!-- RHTestNGMavenJenkinsSuite -->
+</testng-results>

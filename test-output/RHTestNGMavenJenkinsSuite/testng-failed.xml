@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RHTestNGMavenJenkinsSuite]">
+  <parameter name="loginLink" value="Log In"/>
+  <parameter name="password" value="Novem*2018"/>
+  <parameter name="loginURL" value="https://robinhood.com/login"/>
+  <parameter name="loginClickButton" value="_1q0oQo76jB7KFKWPCMPzDW"/>
+  <parameter name="ChromeDriverPath" value="C:\\Users\\faiz1\\Desktop\\Selenium\\chromedriver.exe"/>
+  <parameter name="ChromeDriver" value="webdriver.chrome.driver"/>
+  <parameter name="URL" value="https://www.robinhood.com"/>
+  <test thread-count="5" name="RHTestNGMavenJenkinsTest(failed)">
+    <classes>
+      <class name="RHTestNGMavenJenkins.RHMvnJnkns">
+        <methods>
+          <include name="findStockValue"/>
+          <include name="findCurrentBuyingPower"/>
+          <include name="login"/>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- RHTestNGMavenJenkins.RHMvnJnkns -->
+    </classes>
+  </test> <!-- RHTestNGMavenJenkinsTest(failed) -->
+</suite> <!-- Failed suite [RHTestNGMavenJenkinsSuite] -->

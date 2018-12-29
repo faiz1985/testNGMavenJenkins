@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RHTestNGMavenJenkinsSuite">
+
+<parameter name="URL" value="https://www.robinhood.com"/>
+<parameter name="ChromeDriver" value="webdriver.chrome.driver"/>
+<parameter name="ChromeDriverPath" value="C:\\Users\\faiz1\\Desktop\\Selenium\\chromedriver.exe"/>
+<parameter name="loginURL" value="https://robinhood.com/login"/>
+<parameter name="loginLink" value="Log In"/>
+<parameter name="username" value="faiz1985@gmail.com"/>
+<parameter name="password" value="Novem*2018"/>
+<parameter name="loginClickButton" value="_1q0oQo76jB7KFKWPCMPzDW"/>
+
+  <test thread-count="5" name="RHTestNGMavenJenkinsTest">
+    <classes>
+      <class name="RHTestNGMavenJenkins.RHMvnJnkns"/>
+    </classes>
+  </test> <!-- RHTestNGMavenJenkinsTest -->
+</suite> <!-- RHTestNGMavenJenkinsSuite -->
