@@ -24,7 +24,7 @@ static WebDriver driver;
 
 @Parameters({"loginURL", "loginLink", "username", "password", "loginClickButton"})
   @Test
-  public void login(String logURL, String loginLink, String username, String password, String loginClickButton) throws InterruptedException {
+  public void login(String logURL, String loginLink, String username, String pwd, String loginClickButton) throws InterruptedException {
 	  if (driver.findElement(By.linkText(loginLink)).isDisplayed()) {
 			driver.findElement(By.linkText(loginLink)).click();
 		}
@@ -32,7 +32,7 @@ static WebDriver driver;
 		if (currentURL.equals(logURL)) {
 			Thread.sleep(500);
 			driver.findElement(By.name("username")).sendKeys(username);
-			driver.findElement(By.name("password")).sendKeys(password);
+			driver.findElement(By.name("password")).sendKeys(pwd);
 			driver.findElement(By.className(loginClickButton)).click();
 		}
 			Thread.sleep(2000);
