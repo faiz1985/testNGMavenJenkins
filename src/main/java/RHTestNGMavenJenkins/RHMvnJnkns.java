@@ -1,4 +1,4 @@
-//Faisel Farooq
+//Faisel Farooq faiz1985@gmail.com
 package RHTestNGMavenJenkins;
 
 import org.openqa.selenium.By;
