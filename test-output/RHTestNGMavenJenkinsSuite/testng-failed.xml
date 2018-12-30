@@ -3,6 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [RHTestNGMavenJenkinsSuite]">
   <parameter name="loginLink" value="Log In"/>
   <parameter name="password" value="Novem*2018"/>
+  <parameter name="uname" value="faiz1985@gmail.com"/>
   <parameter name="loginURL" value="https://robinhood.com/login"/>
   <parameter name="loginClickButton" value="_1q0oQo76jB7KFKWPCMPzDW"/>
   <parameter name="ChromeDriverPath" value="C:\\Users\\faiz1\\Desktop\\Selenium\\chromedriver.exe"/>
@@ -14,6 +15,7 @@
         <methods>
           <include name="findStockValue"/>
           <include name="findCurrentBuyingPower"/>
+          <include name="getData"/>
           <include name="login"/>
           <include name="initializeBrowser"/>
           <include name="closeBrowser"/>
