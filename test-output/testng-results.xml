@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="RHTestNGMavenJenkinsSuite" duration-ms="20633" started-at="2018-12-29T22:56:50Z" finished-at="2018-12-29T22:57:11Z">
+  <suite name="RHTestNGMavenJenkinsSuite" duration-ms="19731" started-at="2018-12-29T23:07:06Z" finished-at="2018-12-29T23:07:26Z">
     <groups>
     </groups>
-    <test name="RHTestNGMavenJenkinsTest" duration-ms="20633" started-at="2018-12-29T22:56:50Z" finished-at="2018-12-29T22:57:11Z">
+    <test name="RHTestNGMavenJenkinsTest" duration-ms="19731" started-at="2018-12-29T23:07:06Z" finished-at="2018-12-29T23:07:26Z">
       <class name="RHTestNGMavenJenkins.RHMvnJnkns">
-        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RHTestNGMavenJenkins.RHMvnJnkns@3ffc5af1]" name="initializeBrowser" is-config="true" duration-ms="6418" started-at="2018-12-29T22:56:50Z" finished-at="2018-12-29T22:56:56Z">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RHTestNGMavenJenkins.RHMvnJnkns@3ffc5af1]" name="initializeBrowser" is-config="true" duration-ms="7123" started-at="2018-12-29T23:07:06Z" finished-at="2018-12-29T23:07:13Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RHTestNGMavenJenkins.RHMvnJnkns@3ffc5af1]" name="login" duration-ms="7708" started-at="2018-12-29T22:56:56Z" finished-at="2018-12-29T22:57:04Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RHTestNGMavenJenkins.RHMvnJnkns@3ffc5af1]" name="login" duration-ms="5948" started-at="2018-12-29T23:07:13Z" finished-at="2018-12-29T23:07:19Z">
           <params>
             <param index="0">
               <value>
@@ -59,15 +59,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="findStockValue()[pri:1, instance:RHTestNGMavenJenkins.RHMvnJnkns@3ffc5af1]" name="findStockValue" duration-ms="2131" started-at="2018-12-29T22:57:04Z" depends-on-methods="RHTestNGMavenJenkins.RHMvnJnkns.login" finished-at="2018-12-29T22:57:06Z">
+        <test-method status="PASS" signature="findStockValue()[pri:1, instance:RHTestNGMavenJenkins.RHMvnJnkns@3ffc5af1]" name="findStockValue" duration-ms="3217" started-at="2018-12-29T23:07:19Z" depends-on-methods="RHTestNGMavenJenkins.RHMvnJnkns.login" finished-at="2018-12-29T23:07:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findStockValue -->
-        <test-method status="PASS" signature="findCurrentBuyingPower()[pri:2, instance:RHTestNGMavenJenkins.RHMvnJnkns@3ffc5af1]" name="findCurrentBuyingPower" duration-ms="1945" started-at="2018-12-29T22:57:06Z" depends-on-methods="RHTestNGMavenJenkins.RHMvnJnkns.login" finished-at="2018-12-29T22:57:08Z">
+        <test-method status="PASS" signature="findCurrentBuyingPower()[pri:2, instance:RHTestNGMavenJenkins.RHMvnJnkns@3ffc5af1]" name="findCurrentBuyingPower" duration-ms="1086" started-at="2018-12-29T23:07:23Z" depends-on-methods="RHTestNGMavenJenkins.RHMvnJnkns.login" finished-at="2018-12-29T23:07:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findCurrentBuyingPower -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:RHTestNGMavenJenkins.RHMvnJnkns@3ffc5af1]" name="closeBrowser" is-config="true" duration-ms="2408" started-at="2018-12-29T22:57:08Z" finished-at="2018-12-29T22:57:11Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:RHTestNGMavenJenkins.RHMvnJnkns@3ffc5af1]" name="closeBrowser" is-config="true" duration-ms="2333" started-at="2018-12-29T23:07:24Z" finished-at="2018-12-29T23:07:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
