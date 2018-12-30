@@ -7,7 +7,7 @@
 <parameter name="ChromeDriverPath" value="C:\\Users\\faiz1\\Desktop\\Selenium\\chromedriver.exe"/>
 <parameter name="loginURL" value="https://robinhood.com/login"/>
 <parameter name="loginLink" value="Log In"/>
-<parameter name="username" value="faiz1985@gmail.com"/>
+<parameter name="uname" value="faiz1985@gmail.com"/>
 <parameter name="password" value="Novem*2018"/>
 <parameter name="loginClickButton" value="_1q0oQo76jB7KFKWPCMPzDW"/>
 
