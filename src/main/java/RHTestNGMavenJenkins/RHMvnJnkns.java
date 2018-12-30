@@ -1,4 +1,4 @@
-//Faisel Farooq Jenkins
+//Faisel Farooq
 package RHTestNGMavenJenkins;
 
 import org.openqa.selenium.By;
