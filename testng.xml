@@ -8,7 +8,7 @@
 <parameter name="loginURL" value="https://robinhood.com/login"/>
 <parameter name="loginLink" value="Log In"/>
 <parameter name="uname" value="faiz1985@gmail.com"/>
-<parameter name="password" value="Novem*2018"/>
+<parameter name="password" value=""/>
 <parameter name="loginClickButton" value="_1q0oQo76jB7KFKWPCMPzDW"/>
 
   <test thread-count="5" name="RHTestNGMavenJenkinsTest">
